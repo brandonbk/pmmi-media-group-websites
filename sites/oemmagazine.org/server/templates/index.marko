@@ -152,8 +152,8 @@ $ const { id, alias, name, pageNode } = data;
         component-name="content-load-more-flow"
         component-input={ aliases }
         fragment-name="content-list"
-        query-name="website-scheduled-content"
-        query-params={ sectionId: id, limit: 12, skip: 19, requiresImage: true }
+        query-name="website-optioned-content"
+        query-params={ sectionAlias: "home", optionName: "Pinned", limit: 12, skip: 19, requiresImage: true }
         max-pages=0
         page-input={ for: "website-section", id }
       />
