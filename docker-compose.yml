@@ -76,11 +76,13 @@ services:
     environment:
       <<: *env
       <<: *env-tauron
+      HOST: www-pmmimediagroup-aw.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9709
       LIVERELOAD_PORT: 19709
       TENANT_KEY: pmmi_all
       SITE_ID: 5d88cecaf175132c008b4567
+    hostname: www-pmmimediagroup-aw.dev.parameter1.com
     ports:
       - "9709:80"
       - "19709:19709"
@@ -92,11 +94,13 @@ services:
     environment:
       <<: *env
       <<: *env-tauron
+      HOST: www-pmmimediagroup-pw.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9711
       LIVERELOAD_PORT: 19711
       TENANT_KEY: pmmi_all
       SITE_ID: 5d88cedef175132c008b456b
+    hostname: www-pmmimediagroup-pw.dev.parameter1.com
     ports:
       - "9711:80"
       - "19711:19711"
@@ -108,11 +112,13 @@ services:
     environment:
       <<: *env
       <<: *env-tauron
+      HOST: www-pmmimediagroup-hcp.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9712
       LIVERELOAD_PORT: 19712
       TENANT_KEY: pmmi_all
       SITE_ID: 5d88cef7f175132c008b456f
+    hostname: www-pmmimediagroup-hcp.dev.parameter1.com
     ports:
       - "9712:80"
       - "19712:19712"
@@ -124,11 +130,13 @@ services:
     environment:
       <<: *env
       <<: *env-tauron
+      HOST: www-pmmimediagroup-pfw.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9713
       LIVERELOAD_PORT: 19713
       TENANT_KEY: pmmi_all
       SITE_ID: 5d88cf1af175132c008b4577
+    hostname: www-pmmimediagroup-pfw.dev.parameter1.com
     ports:
       - "9713:80"
       - "19713:19713"
@@ -140,11 +148,13 @@ services:
     environment:
       <<: *env
       <<: *env-tauron
+      HOST: www-pmmimediagroup-oem.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9714
       LIVERELOAD_PORT: 19714
       TENANT_KEY: pmmi_all
       SITE_ID: 5d88cf05f175132c008b4573
+    hostname: www-pmmimediagroup-oem.dev.parameter1.com
     ports:
       - "9714:80"
       - "19714:19714"
@@ -156,12 +166,14 @@ services:
     environment:
       <<: *env
       <<: *env-tauron
+      HOST: www-pmmimediagroup-mundo.dev.parameter1.com
       PORT: 80
       EXPOSED_PORT: 9716
       LIVERELOAD_PORT: 19716
       TENANT_KEY: pmmi_mundo
       SITE_ID: 5d0a748572c1aa35008b4567
       LEADERS_ALIAS: leaders/2021
+    hostname: www-pmmimediagroup-mundo.dev.parameter1.com
     ports:
       - "9716:80"
       - "19716:19716"
